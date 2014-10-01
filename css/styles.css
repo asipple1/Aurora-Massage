@@ -1,0 +1,472 @@
+/*----------index start--------*/   
+body{
+   background-color:rgba( 136, 154, 185, 0.463 );
+
+   }
+     #header p{
+            color:white;
+    text-align: center;
+    font-family: "zapfino",serif; 
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 0px #000000;
+         position: relative;
+         top:35px;
+     
+     }
+ 
+#header{
+    margin-top:50px;
+height:120px;
+    background-color: #a1b2c7;
+    color:white;
+    text-align: center;
+}
+     
+     #nav{
+     background-color:#a1a1a1;
+         border-top: 1px solid white;
+         height: 50px;
+         text-align: center;
+         font-weight:lighter;
+         
+     }
+     li{
+     border-right: 1px solid white;
+         position: relative;
+         top:10px;
+        
+         
+     }
+     li:last-child { border-right: none;
+     }
+li a{
+color:White;
+   
+    position: relative;
+    
+    padding: 20px;
+    font-family: Avenir;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+      li a:hover{
+    color:#235D79;     
+     }
+     
+     
+     
+  #relax{
+       opacity: 0.90;
+       text-align: left;
+      margin-left: 100px;
+      position: relative;
+      top:60px;
+    
+   }
+       #feature{  
+         height:372px;
+         width: 100%;
+        background-position: center top;
+     background-image: url(images/Massage1.jpg);
+           background-size:cover;
+        background-repeat: no-repeat;  
+     
+     }
+     #feature h1{
+        font-family: Avenir;
+        font-weight: lighter;
+         padding-left: 200px;
+         padding-top: 50px;
+         word-spacing: 25px;
+         font-size: 300%;
+        color: white;
+     }
+#footer {
+    height: 50px;
+ background-color:#a1b2c7; 
+    text-align: center;
+    color:white;
+    font-family: 'helvetica neue'; 
+}
+#footer p{
+margin-top: 15px;
+}
+li {
+display: inline;
+padding: 5px;}
+/*---------index end--------*/
+/*---------About--------*/
+
+#About{
+background-color:#F8F9FB;
+    font-family: Helvetica;
+    font-size: 1.5em;
+    color: #3D5B7D;
+    
+    
+}
+#susan{
+float:left;
+    margin-right: 2px;
+    margin: 4px;
+   
+    border-radius: 50px;
+}
+#massageHands{
+float:right;
+    margin: 5px;
+   width: 140px;
+ 
+}
+#about p{
+margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+/*------About end---------*/
+
+/*--------Services----------*/
+
+.Services{
+background-color: white;
+}
+#HotStones, #DeepTiss, #Swedish, #shiatsu, #Myofascial, #Pregnancy, #TriggerPoint, #Coustom{
+width: 265px;
+    margin: 10px;
+    background-color:rgba( 58, 122, 191, 0.08 );
+    height: 420px
+}
+#Swedish1{
+background-image: url(images/swedishMassage.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    
+}
+/*--------------Swedish----------*/
+#swedish h4{
+    padding-top:5px;
+    height: 30px;
+    width:200px;
+    color: white;
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#Swedish1{
+background-image: url(images/swedishMassage.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+/*----------------Deep------------*/
+#DeepTiss h4{
+    
+    padding-top:5px;
+    width:200px;
+    height: 30px;
+    color: White;
+    
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 )
+}
+#Deep1{
+background-image: url(images/DeepTissuse.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+/*-----Hont Stones---------*/
+
+#HotStones h4{
+    padding-top:5px;
+    width:200px;
+    height: 30px;
+    color: white;
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#HotStones1{
+background-image: url(images/HotStones.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+/*-------Shiatsu-----*/
+
+#Shiatsu h4{
+    padding-top:5px;
+    width:200px;
+    height: 30px;
+    color: white;
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#Shiatsu1{
+background-image: url(images/Shiatsu.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+/*-------Myofascial---------*/
+
+#Myofascial h4{
+    padding-top:5px;
+    width:200px;
+    height: 30px;
+    color: white;
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#Myofascial1{
+background-image: url(images/Myofascial%20Release.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+/*-------Pregnancy---------*/
+
+#Pregnancy h4{
+    padding-top:5px;
+    width:200px;
+    height: 30px;
+    color: white;
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#Pregancy1{
+background-image: url(images/Pregnancy.jpg);
+    background-size: cover;
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+
+/*------Trigger point-------*/
+
+#TriggerPoint h4{
+    padding-top:5px;
+    width:200px;
+    height: 30px;
+    color: white;
+position: relative;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#TriggerPoint1{
+background-image: url(images/TriggerPoint.jpeg);
+    background-size:cover; 
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+/*-------coustom--------*/
+
+#Coustom h4{
+    padding-top:5px;
+    height: 30px;
+    color: white;
+position: relative;
+    width:200px;
+    bottom: 210;
+    background-color: rgba( 252, 252, 252, 0.496 );
+}
+#Coustom1{
+background-image: url(images/massageHands.jpg);
+    display: block;
+    margin-top: 10px;
+    margin-left:auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+/*-------Text info in the services page----------*/
+.ServicesText{
+text-align: center;
+    margin-top: -40px;
+    font-size: 15px;
+}
+
+.ServicesTextH{
+text-align: center;
+    margin-top: -40px;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+/*---------services end----------------*/
+
+/*----------FAQ-----------------*/
+.borderbot{
+
+    position: relative;
+   bottom: 18px;
+    font-family: Helvetica;
+font-size: 1em;
+color: #3D5B7D;
+    border-bottom: 1px solid rgba( 68, 63, 63, 0.276 );
+}
+.Faq1, .borderbot{
+padding: 10px;
+}
+
+/*------------FAQ end----------------*/
+
+/*------------Contact----------------*/
+#Contact1{
+width: 550px;
+    height: 300px;
+background-image: url(images/MassageTable.jpg);
+       background-size:cover;
+        background-repeat: no-repeat;
+    margin: 10px 10px 10px 0;
+    
+}
+.list-group-item a{
+color: black;
+}
+.list-group-item{
+text-align: center;
+}
+
+/*------------Contact end----------------*/
+
+/*------- differant Screen sizes--------*/
+
+@media screen and (min-width:768px)
+    
+{
+li a{
+    padding: 0px;
+font-size: 15px;
+}
+    #relax h1{
+         padding-left: 10px;
+         padding-top: 30px;
+        color: white;
+    }
+    #header p{
+    font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width:480px)
+and (min-width:320px)
+{
+    li{
+position: relative;
+        right: 15px;
+    }
+li a{
+    padding:0;
+font-size: 11px;
+}
+    #relax h1{
+       position: relative;
+        right: 50px;
+        text-align:justify;
+         padding-left: 50px;
+         padding-top: 30px;
+        color: white;
+    }
+    #HotStones, #DeepTiss, #Swedish, #shiatsu, #Myofascial, #Pregnancy, #TriggerPoint, #Coustom{
+position: relative;
+        left: 40px;
+}
+    #footer p{
+    font-size: 13px;
+    }
+    #Contact1{
+    margin-left: 0px;
+    }
+}
+@media screen and (max-width:640px){
+.borderbot{
+font-size: 15px;
+}
+    .Faq1{
+        font-size: 17px;
+    
+    }
+      #Contact1{
+   width: 390px;
+    height: 200px;
+        background-size: 100%;
+          
+          margin-left: 150px;
+    }
+    #Contact2{
+    margin-left: 180px;
+    }
+    #header p{
+    font-size: 29px;
+    }
+
+}
+@media screen and (min-width:320px)
+and (max-width:480px)
+{
+    #Contact1{
+        display: none;
+    }
+     #Contact2{
+    margin-left: 40px;
+         width: 350px;
+    }
+    #header p{
+        margin-top:10px ;
+    font-size: 22px
+    }
+}
+    
