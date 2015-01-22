@@ -1,35 +1,48 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head> 
-     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400' rel='stylesheet' type='text/css'>
-<title>Aurora Massage Therapy About</title> 
-   <meta charset="UTF-8">
-        
+<title>Aurora Massage Therapy</title> 
+        <meta charset="UTF-8">
         <!---responsive---->
         <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <!-----Exploer------->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <!----Bootstrap----->
         <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <!--------CSS-------->
-    <link href="css/styles.css" rel="stylesheet" media="screen"> 
+    <link href="css/style.css" rel="stylesheet" media="screen">
+    <link href="css/media-queries.css" rel="stylesheet" media="screen">
+    <link href="css/reset.css" rel="stylesheet" media="screen">
 </head>
 <body>
-<div class="container">
-<div id="header" class="col-xs-12">
-<p>Aurora Massage Therapy </p>    
-</div>
-    <div id="nav" class="col-xs-12">
-<ul>
-<li><a href="index.html">home</a></li>
-<li><a href="About.html">about</a></li>
-<li><a href="services.html">services</a></li>
-<li><a href="faq's.html">faq's</a></li>
-<li><a href="contact.html">contact</a></li>
-</ul>
-</div>
 
-<div id="About" class="col-xs-12">
+<div class="container">
+    <div class="header">
+        <a href="index.html"><p>Aurora Massage Therapy</p></a>   
+    </div>
+    <nav class= "navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+            <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li class="active"><a href="faq's.html">FAQ'S</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            </div><!--/.nav-collapse -->
+    </nav><!--------Nav-------------->
+<div class="container">
+<div id="FAQ">
  
-    <p class='Faq1'><strong>Where will my massage session take place?</strong> 
+    <p class="Faq1"><strong>Where will my massage session take place?</strong> 
 
     <p class="lead borderbot">Your massage session will take place in a quiet room with ambient lighting. Music or sounds of nature may be played to help you relax. You will lie on a padded table tailored specifically for massage to meet your comfort needs.</p>
 
@@ -41,7 +54,7 @@
 
     <p class="lead borderbot">No, you will undress, make yourself comfortable on the table and cover yourself with a fresh towel or linen provided by the massage therapist.</p>
 
-    <p class='Faq1'><strong>What parts of my body will be massaged?</strong></p>
+    <p class="Faq1"><strong>What parts of my body will be massaged?</strong></p>
 
     <p class="lead borderbot">A typical session will include work on your neck, shoulders, arms, hands, back, legs and feet.  Most clients, however, tend to focus on the areas that ail them the most.</p>
 
@@ -51,26 +64,27 @@
     <p class="Faq1"><strong>What should I expect a massage to fee like?</strong></p> 
     <p class="lead borderbot">Most clients new to massage begin with a Swedish massage.  Traditionally, Swedish massage opens with gentle, flowing movements over the body.  This is to help you begin to relax your muscles and mind.  As you unwind your massage therapist will slowly increase pressure in various areas to release more tension in your muscles.  A lightly scented lotion will be applied to your body to help the massage flow and to reduce the rubbing on your skin.  This will also help moisturize your skin.  Your massage therapist will continue to focus on areas with muscle tension or “knots.”  </p>  
 
-    <p class='Faq1'><strong>What should I do during the massage?</strong>
+    <p class="Faq1"><strong>What should I do during the massage?</strong>
 
 <p class="lead borderbot">Before you massage begins, let him/her know of any health concerns or particular areas you would like to focus on.  Make yourself comfortable during the massage.  He/she will communicate with you during the massage if movements on your behalf are needed.  
     Most clients tend to close their eyes and some tend to fall asleep and a few people enjoy conversation during their massage.  If you have any questions or comments, feel free to ask or make you therapist aware of any adjustments that need to be made.</p> 
 
 
-    <p class='Faq1'><strong>How will I feel after the massage session?</strong></p> 
+    <p class="Faq1"><strong>How will I feel after the massage session?</strong></p> 
 
     <p class="lead borderbot">The vast majority of clients fee lighter and relaxed.  Some people feel relief from aches and pains related to acute or chronic ailments. During you massage toxins are released from your soft tissues.  In order to flush those toxins out, it is highly recommended that you hydrate with water.</p>
 
-    <p class="faq1"><strong>What, if any medical conditions would make a massage inadvisable?</strong></p>
+    <p class="Faq1"><strong>What, if any medical conditions would make a massage inadvisable?</strong></p>
 <p class="lead borderbot">It is of the utmost importance that any client, new or pre-existing, disclose health issues and medications.  If you are currently under the care of a doctor, a written recommendation for the massage is advised.  Doctor approval may be required depending on the condition and/or severity.</p>
-</div>
-  
-<div id="footer" class="col-xs-12">
-<p>Copyright &copy; 2014 A<sup>2</sup> design. All rights reserved.</p>
-</div>
-   
-    
+    </div>
+    </div>
+   <footer class="footer">
+        <div class="Container"><p>Copyright &copy; 2014 A<sup>2</sup> design. All rights reserved.</p></div>
+    </footer>  
 </div><!-- .container_12 -->
+<!-------Java script------------->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </body>
     
     

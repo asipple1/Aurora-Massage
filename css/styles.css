@@ -4,16 +4,19 @@ body{
 
    }
      #header p{
-            color:white;
+    color:white;
     text-align: center;
     font-family: "zapfino",serif; 
     font-size: 30px;
     letter-spacing: 1px;
     text-shadow: 1px 1px 0px #000000;
-         position: relative;
-         top:35px;
-     
+    position: relative;
+    top:35px;
+    text-decoration: none;
      }
+#header a:hover{
+    text-decoration: none;
+}
  
 #header{
     margin-top:50px;
@@ -25,18 +28,14 @@ height:120px;
      
      #nav{
      background-color:#a1a1a1;
-         border-top: 1px solid white;
-         height: 50px;
-         text-align: center;
-         font-weight:lighter;
-         
+     text-align: center;
+     font-weight:lighter;
+     padding: 0 0 0 300px;
+     display: block;
+     width: 100%
      }
      li{
      border-right: 1px solid white;
-         position: relative;
-         top:10px;
-        
-         
      }
      li:last-child { border-right: none;
      }
