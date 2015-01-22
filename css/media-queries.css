@@ -14,7 +14,6 @@
     /*--------------------header---------------------*/
 .header{
     font-family: headerfont;
-    font-size: 5em;
     text-align: center;
     letter-spacing: .09em;
     background-color:#a1b2c7;
@@ -41,4 +40,23 @@
     width: 350px;
     height: 350px
 }
+}
+@media only screen and (max-width:560px){
+    .header a p{
+    margin-top: 20px;
+    font-size: 50px;
+}
+}
+@media only screen and (max-width:425px){
+    .header a p{
+    margin-top: 20px;
+    font-size: 52px;
+}
+.header{
+    height: 150px;
+}
+.massage2{
+    border-radius: 100%;
+}
+
 }
