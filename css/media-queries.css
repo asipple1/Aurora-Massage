@@ -58,6 +58,9 @@
 .massage2{
 display: none;
 }
-
+.about .lead p{
+    
+    font-size: 23px
+}
 
 }
