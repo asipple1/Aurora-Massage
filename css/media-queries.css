@@ -22,9 +22,9 @@
     height: 1.5em;
     
 }
-.header p{
+.header a{
     margin: 0 0 0 0;
-    font-size: 1em;
+    font-size: .9em;
 }
 /*--------------------Nav Bar---------------------*/
 
@@ -37,23 +37,22 @@
         height: 250px;
 }
 #map{
-    width: 350px;
-    height: 350px
+    width: 300px;
+    height: 300px
 }
 }
 @media only screen and (max-width:560px){
-    .header a p{
-    margin-top: 20px;
+    .header a {
     font-size: 50px;
 }
 }
 @media only screen and (max-width:425px){
-    .header a p{
-    margin-top: 20px;
-    font-size: 52px;
+   
+    .header  a{
+    font-size: 48px;
 }
 .header{
-    height: 150px;
+    height: 95px;
 }
 .massage2{
 display: none;

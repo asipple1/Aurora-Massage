@@ -22,7 +22,7 @@ body{
 .header a{
     text-decoration: none;
 }
-.header p{
+.header a{
     margin: 0 0 0 0;
     text-decoration: none;
     color: white;
