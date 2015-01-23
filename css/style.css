@@ -4,6 +4,7 @@
 }
 body{
     background-color:rgba( 136, 154, 185, 0.463 );
+    overflow-y: scroll;
 }
 .container{
     padding: 0 0 0 0;
