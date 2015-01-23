@@ -62,4 +62,14 @@ display: none;
     font-size: 23px
 }
 
+}@media only screen and (max-width:325px){
+   
+    .header  a{
+    font-size: 48px;
+}
+.header{
+    height: 150px;
+}
+
+
 }
